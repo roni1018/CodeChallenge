@@ -1,0 +1,13 @@
+#Accepting input variable for monthly expenses 
+rent = float (input("Enter the monthly rent expenses: "))
+electric = float (input("Enter the monthly electric expenses: "))
+water = float (input("Enter the monthly water expenses: "))
+internet = float (input("Enter the monthly internet expenses: "))
+groceries = float (input("Enter the monthly groceries expenses: "))
+personal = float (input("Enter the monthly personal expenses: "))
+
+#Calculate the total monthly expenses 
+total_monthly_expenses = str
+total_monthly_expenses = rent + electric + water + internet + groceries + personal
+#Print the monthly expenses 
+print(f"The total monthly expenses is: {total_monthly_expenses}")
